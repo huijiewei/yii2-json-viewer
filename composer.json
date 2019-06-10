@@ -1,0 +1,36 @@
+{
+  "name": "huijiewei/yii2-json-viewer",
+  "description": "json-viewer is a jQuery plugin for easily displaying JSON objects by transforming them into HTML.",
+  "minimum-stability": "beta",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-json-viewer.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "json-viewer",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/jquery.json-viewer": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\jsonViewer\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
